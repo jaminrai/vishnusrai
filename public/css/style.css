@@ -1,0 +1,15 @@
+/*custom css of our project*/
+
+#footer
+{
+	margin-top: 30px;
+	padding: 10px;
+	color: #fff;
+	background: #00ee;
+
+}
+
+#footer p 
+{
+	margin-bottom: 0px;
+}
