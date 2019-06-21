@@ -5,6 +5,14 @@
 	<div class="row">
 
 
+<div class="col-mg-6 col-lg-6">
+@if(session('info'))
+
+<div class="alert alert-success">{{session('info')}}</div>
+
+@endif
+</div>
+
 
 
 
@@ -31,8 +39,8 @@
       <td>{{$article->description}}</td>
       <td> 
 <a href="{{ url('') }}" > <button class="btn btn-primary"> Read </button></a>
-<a href="{{ url('') }}" > <button class="btn btn-success"> Update </button></a>
-<a href="{{ url('') }}" > <button class="btn btn-danger"> Delete </button></a>
+<a href='{{ url("/update/{$article->id}") }}' > <button class="btn btn-success"> Update </button></a>
+<a href="{{ url('/delete') }}" > <button class="btn btn-danger"> Delete </button></a>
       </td>
     </tr>
     @endforeach

@@ -27,3 +27,11 @@ Route::get('/create', function(){
 
 
 Route::post('/insert', 'CreatesController@add' );
+
+
+
+Route::any('/delete', 'CreatesController@delete' );
+
+
+Route::get('/update/{id}', 'CreatesController@update' );
+Route::any('/edit/{id}', 'CreatesController@edit' );
