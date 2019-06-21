@@ -30,7 +30,7 @@
 
 <!-- <div class="page-preloader">
 	<div class="content">
-		<img src="{{Request::root()}}/img/logo.png" alt="#" width="170" height="88" class="img-responsive">
+		<img src="{{Request::root()}}/img/vishnu.png" alt="#" width="170" height="88" class="img-responsive">
 
 		<div class="loading">Loading</div>
 	</div>
@@ -279,7 +279,7 @@
 				<div class="container">
 					<h1>
 						<a href="index.html" title="#">
-							<img src="{{Request::root()}}/img/logo.png" alt="#" width="208" height="108" class="img-responsive">
+							<img src="{{Request::root()}}/img/vishnu.png" alt="#" width="208" height="108" class="img-responsive">
 							<strong>Blogee</strong>
 						</a>
 					</h1>
@@ -2135,7 +2135,7 @@
 				<div class="container">
 					<h1>
 						<a href="index.html" title="#">
-							<img src="{{Request::root()}}/img/logo.png" alt="#" width="208" height="108" class="img-responsive">
+							<img src="{{Request::root()}}/img/vishnu.png" alt="#" width="208" height="108" class="img-responsive">
 							<strong>Blogee</strong>
 						</a>
 					</h1>

@@ -71,10 +71,10 @@ return redirect('/post')->with('info','Edit/update successfully');
 }
 
 
-public function delete()
+public function delete($id)
 {
 
-	return 'this is delete';
+	return $id;
 }
 
 

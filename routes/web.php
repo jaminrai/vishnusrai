@@ -35,3 +35,5 @@ Route::any('/delete', 'CreatesController@delete' );
 
 Route::get('/update/{id}', 'CreatesController@update' );
 Route::any('/edit/{id}', 'CreatesController@edit' );
+
+Route::any('/delete/{id}', 'CreatesController@delete' );

@@ -32,7 +32,7 @@
       <label for="description">Description</label>
    
 
-      <textarea name="description" class="form-control" id="exampleInputPassword1" placeholder="Description">
+      <textarea name="description" class="form-control" placeholder="Description" id="description'">
         
 
 
@@ -53,6 +53,13 @@
 		</div>
 	</div>
 </div>
+
+
+
+<script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace( 'description' );
+    </script>
 
 
 @include('backend/inc/footer')

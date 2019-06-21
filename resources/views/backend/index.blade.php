@@ -40,7 +40,7 @@
       <td> 
 <a href="{{ url('') }}" > <button class="btn btn-primary"> Read </button></a>
 <a href='{{ url("/update/{$article->id}") }}' > <button class="btn btn-success"> Update </button></a>
-<a href="{{ url('/delete') }}" > <button class="btn btn-danger"> Delete </button></a>
+<a href="{{ url('/delete/{$article->id}') }}" > <button class="btn btn-danger"> Delete </button></a>
       </td>
     </tr>
     @endforeach
